@@ -1,0 +1,74 @@
+body, html {
+    height: auto;
+    background-color: black;
+    background-image: url("neb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: fixed; 
+}
+
+h1 {
+    color: white;
+    font-family: Futura;
+}
+
+.card{
+    background-color: black;
+    padding: 50px 100px 100px 100px;
+    float: middle;
+    opacity: 0.8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input{
+    background-color: black;
+    color: white;
+    outline: none;
+    margin: 0;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 14px;
+    font-family: inherit;
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ccc;
+}
+
+img{
+    width: 100px;
+    height: 120px;
+}
+
+.btn {
+    background-color: white; /* Green */
+    border: none;
+    color: #4CAF50;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button1 {
+    background-color: #4CAF50; 
+    color: black; 
+    /* border: 2px solid white; */
+  }
+ 
+  .button1:hover {
+    background-color: white;
+    color: #4CAF50;
+  }
